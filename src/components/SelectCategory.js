@@ -1,4 +1,4 @@
-import { Divider, Select } from "@chakra-ui/react";
+import { Select } from "@chakra-ui/react";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
@@ -28,8 +28,8 @@ export default function SelectCategory(props) {
         onChange={(e) => handleChange(e)}
       >
         {categories?.map((e, index) => (
-          <option style={{ textTransform: "capitalize" }} key={index} value={e}>
-            {e}
+          <option style={{ textTransform: "capitalize" }} key={index} value={e.name}>
+            {e.name}
           </option>
         ))}
       </Select>
