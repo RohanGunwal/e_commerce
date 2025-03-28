@@ -9,7 +9,6 @@ export default function Home(props) {
   const [modalData, setModalData] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
   const { data } = props;
-  console.log(data.slice((currentPage - 1) * 10, currentPage * 10));
   let numberOfPages = Math.ceil(data.length / 10);
 
   const nextPage = () => {
