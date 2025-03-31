@@ -1,9 +1,6 @@
 import {
-  Button,
   Card,
   CardBody,
-  CardFooter,
-  Divider,
   Heading,
   Image,
   Stack,
