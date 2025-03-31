@@ -54,7 +54,7 @@ function App() {
     <>
       <Navbar productSearch={productSearch} setLoading={setLoading} />
       <Flex
-        padding={"0px 20px"}
+        padding={"0px 40px"}
         justify={"space-around"}
         gap={{ base: "10px" }}
         direction={{ base: "column", md: "row" }}
